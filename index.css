@@ -1,0 +1,244 @@
+.upper_bar{
+    
+    background-color: #fff;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+
+
+}
+#type{
+    color: yellowgreen;
+}.lp{
+ background-color: blanchedalmond;
+ color: black;
+padding: 10px 20px;
+text-align: center;
+font-family: cursive;
+height: 600px;
+}
+
+.lp a:hover{
+    border-bottom: 2px solid #000;
+
+}
+.lp a:hover,.lp a:hover{
+  text-decoration: none;   
+
+}
+.image{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    height: 500px;
+ 
+
+}
+.image > .inner-img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+.image >.Text_lare{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(6, 6, 48, 0.6);
+    width: 100%;
+    height: 500px;
+}
+.image >.Text_lare p{
+   
+    text-align: center;
+   font-size: 45px;
+   font-family: cursive;
+  
+   font-weight: bold;
+   color:#fff;
+   word-spacing: 10px;
+   transition: 0.5s ease-in-out;
+     padding-top: 200px;
+}
+.image >.Text_lare p:hover{
+    word-spacing: 20px;}
+row{
+    background-color: rgba(6, 6, 48, 0.6);
+}
+.rp{
+    overflow-y: scroll;
+    height: auto;
+}
+.resipy_title{
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+}
+.resipy_para{
+  font-family: monospace;
+  font-size: 19px;
+  color: gray;
+}
+.c6{
+    padding: 12px;
+
+}
+.ri{
+    width: 200px;
+    width: 200px;
+}
+footer li{
+    list-style-type: circle;
+    font-size: large;
+    color: ivory;
+}
+a{
+    text-decoration: none;
+    color: honeydew;
+}
+.seg-1 h2,.seg-2 h2,.seg-3 h2,.seg-4 h2{
+    color:white !important;
+    
+    font-size: 20px;
+    font-family: cursive;
+    text-align: left;
+    padding: 5px;
+    border-left: 2px solid yellow;
+    
+}
+.seg-1 p,.seg-2 p,.seg-3 p,.seg-4 p{
+   
+    
+    font-size: 17px;
+    font-family: monospace;
+    text-align: left;
+    page-break-after: auto;
+    padding: 10px;
+    color: lightgrey !important;
+}
+.seg-1,.seg-2,.seg-3,.seg-4{
+    padding: 10px;
+    
+}
+.seg-2 ul li{
+    color: ivory;
+ 
+    font-size: 17px;
+    font-family: monospace;
+    text-align: left;
+    page-break-after: auto;
+    border-bottom: 1px solid grey;
+    border-width: 100%;
+    padding: 5px;
+    list-style-type: none;
+    color: lightgrey;
+}
+.seg-4 button{
+  width: 40%;
+  padding: auto;
+ background-color: yellowgreen;
+ color:black;
+ font-weight: solid;
+ border-radius: 0mm;
+}
+.seg-4 input{
+    box-shadow: none !important;
+    width: 60%;
+
+}
+footer{
+    background-color: black;
+
+}
+.seg-3 i{
+
+
+  
+  color: white;
+  margin: 5px;
+}
+.recipy{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: cursive;
+     text-shadow:1px yellowgreen;
+     text-align: center;
+     padding: initial;
+     outline-color: rgba(6, 6, 48, 0.6);
+     border-bottom: 1px solid rgb(236, 202, 139);
+}
+.bottom{
+    padding: 10px;
+    color: grey;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+}
+.menu-head{
+   
+    font-size: 30px;
+    color:brown;
+    font-family: cursive;
+    width: 100%;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1px;
+    border-bottom: 2px solid orange;
+}
+td{
+    padding: 10px;
+    font-size: 20px;
+
+    font-family: monospace;
+
+}
+table{
+    border-radius: 10px;
+  
+}
+th{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&& main-menu&&&&&&&&&&&&&&&&& */
+.order{
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: serif;
+    padding: 10px;
+    color: rgb(5, 31, 150);
+    font-weight: bold;
+}
+.order-frame{
+    border: 1px solid black;
+    border-top-right-radius: 30px;
+    height: 150px;
+    background-color: rgb(230, 227, 222);
+    padding: 10px;
+    text-align: center;
+}  #foods_menu h2,h4{
+                      font-family: serif;
+                      text-transform: capitalize;
+                      color: black;
+                      text-align: center;
+                      padding: 10px;
+            }
+             #foods_menu  .card{
+                min-height: 400px;
+                margin: 10px;
+             }
+            #foods_menu  .card h4{
+                text-align: left;
+                font-family: serif;
+                padding: 10px;
+
+
+            }
+            #foods_menu  .card p{
+               color: grey;
+               text-align: left;
+               font-size: 17px;
+               font-family: serif;
+            }
+            #order-button{
+                border: 3px dotted #ff1100 !important; 
+                float: right;
+            }
